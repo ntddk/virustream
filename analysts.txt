@@ -19,6 +19,7 @@ MalwareConfig
 malwarescom
 Malwared_
 malware_traffic
+MalwareHunterbr
 hasherezade
 HerbieZimmerman
 James_inthe_box
