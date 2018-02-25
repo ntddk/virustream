@@ -35,3 +35,10 @@ thlnk3r
 kafeine
 siri_urz
 virqdroid
+bad_packets
+MalwArgSecurity
+x0rz
+v0id_hunter
+WifiRumHam
+
+
