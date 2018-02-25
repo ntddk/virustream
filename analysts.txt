@@ -19,6 +19,7 @@ MalwareConfig
 malwarescom
 Malwared_
 malware_traffic
+MalwareHunterbr
 hasherezade
 HerbieZimmerman
 James_inthe_box
@@ -34,4 +35,5 @@ thlnk3r
 0_1_0_1_0_0_0_0
 kafeine
 siri_urz
+sS55752750
 virqdroid
