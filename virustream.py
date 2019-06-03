@@ -45,8 +45,8 @@ def check_hash(tweet):
 
 def submit_to_slack(tweet_url):
     payload = {
-        'channel': slack_channel, 
-        'username': slack_username, 
+        'channel': slack_channel,
+        'username': slack_username,
         'text': tweet_url
     }
     url = slack_url
@@ -126,7 +126,7 @@ class StreamListener(StreamListener):
 
         # MISP
         if len(misp_key) > 0:
-            submit_to_misp(hash_dict, tweet_url) 
+            submit_to_misp(hash_dict, tweet_url)
 
         # VirusTotal
         if len(vt_key) > 0:
@@ -145,7 +145,7 @@ def main():
 
     auth = get_oauth()
     stream = Stream(auth, StreamListener(), secure=True)
-    stream.filter(track=analysts, async=True)
+    stream.filter(track=analysts, is_async=True)
 
 if __name__ == '__main__':
     main()
